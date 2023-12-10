@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.container{
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    border: none;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;   
+    user-select: none;
+}
+
+.container.box{
+    border-left: none ;
+    border-bottom: none;
+    border: none ;
+    flex-grow: 1;
+}
+
+.row{
+    display: flex;
+}
+
+
+.showGridLines{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.removeLeftRightBorders{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+main{
+    width: 100%;
+}
+
+.left{
+    border: 2px solid black;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.7rem;
+}
+
+.labelText{
+    text-align: center;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 0.7rem;
+}
